@@ -1,0 +1,50 @@
+.musthave__content__wrapper {
+    width: 100%;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+.musthave__content__title {
+    font-size: min(1.5vw, 3vh);
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.musthave__content__body {
+    width: 100%;
+}
+
+.musthave__one__row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+.one__musthave {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one__musthave__photo {
+    width: 15vw;
+}
+
+.one__musthave__title {
+    width: 70%;
+    text-align: center;
+    font-size: min(1.2vw, 2.4vh);
+    font-weight: 700;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.one__musthave__description {
+    width: 70%;
+    border: 1px solid black;
+}
+
+.one__musthave__body {
+    font-size: min(1.1vw, 2.2vh);
+}

@@ -1,0 +1,138 @@
+.main__page__mobile__wrapper{
+    width: 100vw;
+    height: 100dvh;
+    font-family: 'Roboto';
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.type__tobacco__page__wrapper{
+    min-height: 100dvh;
+    width: 90vw;
+    margin-left: 5vw;
+    font-family: 'Roboto';
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page__title, .page__back{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+}
+.page__main__content{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.page__back{
+    height: 10dvh;
+    font-size: 6vw;
+    display: flex;
+    align-items: center;
+}
+.mobile__page__wrapper{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
+}
+.main__page__mobile__company__logo{
+    font-size: 8vw;
+    text-align: center;
+}
+.main__page__mobile__company__logo__photo{
+    width: 70%;
+}
+.main__page__mobile__main__content{
+    font-size: 8vw;
+    align-items: center;
+    margin-bottom: 10dvh;
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main__page__mobile__footer{
+    font-size: 4vw;
+    text-align: center;
+}
+.start__page__point{
+    font-size: 8vw;
+    width: 100%;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.type__tobacco__page__title{
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    height: 10dvh;
+    align-items: center;
+}
+
+.type__tobacco__page__photo{
+    width: 100%;
+    height: 30dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4dvh;
+}
+.type__tobacco__page__img{
+    height: 100%;
+}
+.type__tobacco__page__description{
+    text-align: justify;
+    margin-bottom: 4dvh;
+}
+.type__tobacco__page__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4dvh;
+}
+.type__tobacco__page__flavours{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.type__tobacco__page__flavours__title{
+    width: 100%;
+    text-align: center;
+    height: 5dvh;
+    font-size: 5vw;
+}
+.type__tobacco__page__one__row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2dvh;
+}
+.type__tobacco__page__one__name, .type__tobacco__page__one__flavour{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.type__tobacco__page__one__flavour{
+    justify-content: end;
+    text-align: right;
+}

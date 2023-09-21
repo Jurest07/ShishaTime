@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import MainPage from "./pages/MainPage";
+import MainPageMobile from "./pages/MainPageMobile";
+import TypeProductPage from './componentsMobile/TypeProductPage';
+import TobaccoPage from './componentsMobile/TobaccoPage';
+import ShishaPage from './componentsMobile/ShishaPage';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={window.innerWidth <= 600 ? <MainPageMobile /> : <MainPage />} />
+        <Route path="/typeProduct/:id" element={<TypeProductPage />} />
+        <Route path='/tobacco/:id' element={<TobaccoPage />} />
+        <Route path='/shisha/:id' element={<ShishaPage />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;

@@ -1,0 +1,69 @@
+.main__page__wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  font-family: 'Roboto';
+  letter-spacing: 0.1em;
+}
+
+.main__page__bg__photo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  filter: brightness(50%);
+}
+
+.main__page__bg__photo video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main__page__content {
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.company__logo {
+  width: 12vh;
+  height: 12vh;
+  position: absolute;
+  z-index: 3;
+  left: 92%;
+  top: 2%;
+}
+.company__name{
+  position: absolute;
+  z-index: 3;
+  left: 4%;
+  top: 3%;
+  color: white;
+  font-size: min(2.2vw, 4.4vh);
+  font-family: 'Revue';
+}
+
+.company__logo__photo {
+  width: 100%;
+}
+
+.main__page__contacts {
+  position: absolute;
+  color: rgb(169, 169, 169);
+  top: 5%;
+  left: 79%;
+  z-index: 3;
+}
